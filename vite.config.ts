@@ -24,7 +24,6 @@ export default defineConfig({
   },
   build: {
     manifest: false,
-    minify: "terser",
     terserOptions: {
       compress: {
         unused: true,
