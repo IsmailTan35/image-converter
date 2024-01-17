@@ -286,7 +286,16 @@ function App() {
             {image &&
               image.length > 0 &&
               image.map((img: any, idx: number) => {
-                return <img src={img} alt="img" key={idx} />;
+                return (
+                  <img
+                    src={img}
+                    alt="img"
+                    key={idx}
+                    style={{
+                      width: "300px",
+                    }}
+                  />
+                );
               })}
           </div>
         </div>

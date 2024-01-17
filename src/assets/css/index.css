@@ -1,10 +1,16 @@
 html {
-  background: #f6f6f6;
+  background: radial-gradient(
+    circle,
+    rgb(5, 5, 5) 0%,
+    rgb(15, 15, 15) 50%,
+    rgb(20, 20, 20) 100%
+  );
   font-family: Poppins, sans-serif;
+  color: #fff;
 }
 
 button {
-  background: #f5f5f5;
+  background: #ccc;
   color: #232323;
   border: 1px solid #fff;
   padding: 10px 20px;
@@ -25,7 +31,7 @@ input {
 }
 
 input:not([type="file"]) {
-  background: #f5f5f5;
+  background: #ccc;
   color: #232323;
   border: 1px solid rgba(0, 0, 0, 0.3);
   padding: 10px 20px;
@@ -33,7 +39,7 @@ input:not([type="file"]) {
 }
 
 input[type="file"] {
-  background: #f5f5f5;
+  background: #ccc;
   color: #232323;
   border: 1px solid rgba(0, 0, 0, 0.3);
   padding: 10px 20px;
